@@ -1,0 +1,236 @@
+
+/*homepage*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 30px 90px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.7);
+    border-bottom: 1px solid #fff;
+    /*på måte etasje*/
+    z-index: 1;
+}
+nav .logo{
+    padding: 10px 20px;
+    height: 80%;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 5;
+    display: flex;
+}
+nav ul li a{
+    line-height: 80%;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background: rgba(224, 161, 78, 0.466);
+    border-radius: 6px;
+}
+
+/*Section*/
+
+section{
+    width: 100%;
+    height: 100vh;
+    background: url("img/backround.jpg");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid black;
+}
+section .meny{
+    position: absolute;
+    left: 39%;
+    top: 70%;
+
+}
+
+/*Bodie*/
+body{
+    align-items: center;
+    background-color:rgba(170, 118, 87, 0.356);
+    min-height: 100vg;
+    /*footer*/
+    display: flex;
+    flex-direction: column;
+    min-height: 105%;
+}
+/*Pictures*/
+
+.container{  
+
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+   
+}
+.container .card{
+
+    max-width: 450px;
+    background:rgb(231, 222, 214);
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    
+}
+.container .card .imgBox{
+    max-width: 150px;
+    flex: 0 0 150px;
+}
+.container .card .imgBox img{
+    max-width: 100%;
+}
+.container .card .conect{
+    margin-left: 20px;
+}
+@media (max-width: 991px){
+    .container{
+        flex-direction: column;
+
+    }
+}
+@media (max-width: 768px){
+    .container{
+        flex-direction: column;  
+    }
+    .container .card{
+        flex-direction: column;
+        max-width: 350px;    
+    }
+    .container .card .imgBox{
+        max-width: 100%; 
+    }
+    .container .card .conect{
+        margin-left: 0px;
+    }
+
+}
+.container .card .conect .pris{
+    font-size: 25px;
+    color: rgb(102, 80, 50);
+    position: relative;
+    top: 10%;
+    left: 10%;
+    font-family:Tahoma;
+}
+.container .card .conect .alergy{
+    color:black;
+    text-align: end;
+    font-family:Tahoma;
+}
+.container .card .conect .ale{
+    color:rgb(7, 7, 7);
+    text-align: end;
+    font-family:Tahoma;
+}
+/*footer*/
+
+footer{
+    background: rgb(160, 121, 95);
+    color: cornsilk;
+    padding: 3em;
+    margin-top: auto;
+    width: 100%;
+    border-top: 1px solid black;
+}
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 5;
+    display: flex;
+}
+footer ul li a{
+    line-height: 80%;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+footer ul li a:hover{
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+}
+
+html{
+    height: 430%;
+}
+
+/*opening howers*/
+
+.container .workH{
+    height: auto;
+    position: relative;
+    width: 800px;
+    color:whitesmoke;
+    
+      
+    
+}
+.container .workH img{
+    display: block;
+}
+.text{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    font-size: 20px;
+}
+.container .workH .text .opening{
+    background-color: rgba(29, 21, 12, 0.582);
+}
+/*trenger å fikse det*/
+.location{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%,120%);
+    font-size: 20px;
+}
+.locationFarrge{
+    color: black;
+}
+
+.kontakt{
+    position: absolute;
+    top: 120px;
+    right: -140px;
+    font-size: 20px;
+}
+.cont-info{
+    background-color: rgba(29, 21, 12, 0.685);
+}
+.cont-info li a{
+    text-decoration: none;
+    text-decoration: none;
+    color: rgba(219, 132, 18, 0.801);
+}
