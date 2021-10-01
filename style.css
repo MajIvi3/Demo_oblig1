@@ -169,17 +169,12 @@ footer ul{
 }
 footer ul li a{
     line-height: 80%;
-    color: #fff;
     padding: 12px 30px;
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
-    text-transform: uppercase;
 }
-footer ul li a:hover{
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 6px;
-}
+
 
 html{
     height: 430%;
@@ -192,9 +187,6 @@ html{
     position: relative;
     width: 800px;
     color:whitesmoke;
-    
-      
-    
 }
 .container .workH img{
     display: block;
@@ -202,8 +194,9 @@ html{
 .text{
     position: absolute;
     top: 80px;
-    left: 10px;
+    left: 30px;
     font-size: 20px;
+
 }
 .container .workH .text .opening{
     background-color: rgba(29, 21, 12, 0.582);
@@ -211,26 +204,19 @@ html{
 /*trenger å fikse det*/
 .location{
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-35%,120%);
     font-size: 20px;
 }
-.locationFarrge{
-    color: black;
-}
 
-.kontakt{
-    position: absolute;
-    top: 120px;
-    right: -140px;
-    font-size: 20px;
-}
-.cont-info{
-    background-color: rgba(29, 21, 12, 0.685);
-}
+
+
+
 .cont-info li a{
     text-decoration: none;
     text-decoration: none;
-    color: rgba(219, 132, 18, 0.801);
+    color: rgba(32, 19, 1, 0.801);
+    
+    
 }
